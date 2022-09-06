@@ -1,0 +1,9 @@
+.tours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tour_card{
+    height: 200px;
+}
