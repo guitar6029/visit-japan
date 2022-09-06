@@ -16,6 +16,22 @@
 }
 
 .card:hover {
+  background-image: none !important;
+}
+
+.card:hover > .card_description {
+  transform: all;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+  color: #fff;
+}
+
+.card:hover > .card_title {
+  color: #000;
+  background-color: #fff;
 }
 
 .card_display {
@@ -33,12 +49,8 @@
 }
 
 .card_description {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-  justify-items: center;
-  color: #fff;
+  transition: 0.2s ease-in;
+  display: none;
 }
 
 .card_display > div:nth-child(1) {
@@ -72,4 +84,58 @@
   height: 40px;
   text-align: center;
   position: relative;
+  top: -30%;
+  transition: 0.2s ease-in;
+  /* left: -20%; */
+}
+
+.item_title {
+  margin-bottom: 1em;
+  font-size: 2vw;
+}
+
+.item_rating_star {
+  color: yellow;
+}
+
+.item_description {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center;
+  word-break: break-word; */
+}
+
+.item_description {
+  max-width: 600px;
+}
+
+.item_description > p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.item_location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.item_view_more {
+  margin-top: 2em;
+}
+
+.item_view_more > a {
+  transition: 0.2s ease-in;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.item_view_more:hover > a {
+  color: #2d2b2b;
+  background-color: #f9f4f4;
 }

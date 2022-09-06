@@ -1,8 +1,11 @@
-import React from 'react'
+import Nav from "../components/Nav/Nav"
 
 function Tours() {
   return (
-    <div>tours</div>
+    <section className="flex_column margin_10">
+      <Nav/>
+      <h3 className="section_title">TOP TOURS</h3>
+    </section>
   )
 }
 

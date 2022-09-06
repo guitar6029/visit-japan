@@ -1,20 +1,19 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: rgb(15, 15, 16);
 }
 
-
 .flex_column {
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
 
-.flex_centered{
+.flex_centered {
   align-items: center;
   justify-content: center;
 }
@@ -24,7 +23,11 @@ body{
   flex-direction: row;
 }
 
-.section_title{
+.margin_10 {
+  margin-bottom: 10em;
+}
+
+.section_title {
   margin-top: 1em;
   margin-bottom: 1em;
   font-size: 4vw;
