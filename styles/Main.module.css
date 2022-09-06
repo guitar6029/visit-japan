@@ -1,0 +1,36 @@
+.favorite_spots_title{
+    text-align: center;
+}
+
+.spots{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.spots > div {
+    cursor: pointer;
+    width: 200px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in;
+}
+
+.spots > div:hover{
+    width: 300px;
+}
+
+.spots > div:nth-child(1){
+    background-image: url('../public/images/pexels-photo-1028429.webp');
+}
+
+.spots > div:nth-child(2){
+    background-image: url('../public/images/pexels-photo-2339009.jpeg');
+}
+
+.spots > div:nth-child(3){
+    background-image: url('../public/images/photo-1608060146923-7b8ab13e22bb.avif');
+}
