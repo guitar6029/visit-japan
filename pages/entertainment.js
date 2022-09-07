@@ -17,7 +17,7 @@ function Entertainment() {
           <h3 className={styles.area_title}>NATIONAL PARKS</h3>
         </div>
         <div className={styles.area4}>
-          <h3 className={styles.area_title}>MEDIDATE</h3>
+          <h3 className={styles.area_title}>YOGA</h3>
         </div>
         <div className={styles.area5}>
           <h3 className={styles.area_title}>UNIQUE STORES</h3>

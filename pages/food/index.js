@@ -1,5 +1,6 @@
-import Nav from "../components/Nav/Nav";
-import style from "../styles/Food.module.css";
+import Link from "next/link";
+import Nav from "../../components/Nav/Nav";
+import style from "../../styles/Food.module.css";
 
 function Food() {
   return (
@@ -169,6 +170,9 @@ function Food() {
           </div>
         </div>
       </div>
+      {/* <div className={style.view_more}>
+          <Link href="/food/locations"><a>VIEW MORE</a></Link>
+      </div> */}
     </section>
   );
 }
