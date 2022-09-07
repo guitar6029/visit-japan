@@ -12,6 +12,7 @@
   padding: 20px;
   color: #fff;
   min-height: 600px;
+
   background-image: url("/images/photo-1545569341-9eb8b30979d9.avif");
   background-position: center;
   background-size: cover;
@@ -34,7 +35,7 @@
 }
 
 .main_items > div {
-  width: 300px;
+  width: 35vw;
   padding: 3em;
   text-align: center;
   border: 2px solid rgb(225, 204, 223);
@@ -46,7 +47,8 @@
 }
 
 .main_items > div > h3 {
-  font-size: 2em;
+  font-size: 3vw;
+  text-align: center;
 }
 
 .main_items > div > h3 > a {
@@ -79,4 +81,22 @@
   /* border-bottom: 1px solid #fff;
   border-top: 1px solid #fff; */
   color: rgb(240, 203, 245);
+}
+
+
+@media only screen and (max-width: 600px){
+  .bottom{
+    display: flex;
+  }
+
+  .circle{
+    background-color: orange;
+  }
+  .main_items{
+    flex-direction: column;
+  } 
+
+  .main_items > div {
+    width: 100%;
+  }
 }

@@ -1,8 +1,10 @@
-
+import Nav from "../components/Nav/Nav"
 
 function Entertainment() {
   return (
-    <div>entertainment</div>
+    <section className="flex_column margin_10">
+      <Nav />
+      </section>
   )
 }
 

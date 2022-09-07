@@ -101,9 +101,7 @@
 .item_description {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center;
-  word-break: break-word; */
+ 
 }
 
 .item_description {
@@ -138,4 +136,40 @@
 .item_view_more:hover > a {
   color: #2d2b2b;
   background-color: #f9f4f4;
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    width: 100vw;
+    height: 100px;
+  }
+
+  .item_title {
+    margin-bottom: 1em;
+    font-size: 5vw;
+  }
+
+  .item_location > h5 {
+    max-width: 200px;
+    overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  }
+
+  .item_description{
+    max-width: 200px;
+  }
+
+  .card:hover {
+    width: 100vw;
+    height: 500px;
+  }
+
+  .card_title {
+    display: none;
+  }
+
+  .card_display {
+    flex-direction: column;
+  }
 }

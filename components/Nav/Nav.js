@@ -19,9 +19,6 @@ function Nav() {
             <Link href="about">About</Link>
           </div>
           <div>|</div>
-          <div>
-            <Link href="tourism">Tourism</Link>
-          </div>
         </div>
       </div>
       <div className={styles.bottom}>
