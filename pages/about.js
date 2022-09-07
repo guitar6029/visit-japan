@@ -8,7 +8,7 @@ function About() {
       <Nav />
       <div className={style.about}>
         {/* <Image width={500} height={500} src="/images/photo-1545569341-9eb8b30979d9.avif" alt='test'/> */}
-        <p>Hello, this website uses Next.JS and all images are all from unsplash.com </p>
+        <p className="margin_10">Hello, this website uses Next.JS and all images are all from unsplash.com </p>
       </div>
       </section>
   )

@@ -37,7 +37,7 @@ function Tours() {
           <div className={`${style.tour_img} ${style.tour_bg_img}`}></div>
           <div className={style.tour_description}>
             <h3>DISCOVER JAPAN</h3>
-            <Link href='tours/discover'><a>MORE INFO</a></Link>
+            <Link href='#'><a>MORE INFO</a></Link>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ function Tours() {
           <div className={`${style.tour_img} ${style.tour_bg_img}`}></div>
           <div className={style.tour_description}>
             <h3>JAPAN ART &amp; POP CULTURE</h3>
-            <Link href='tours/pop_culture'><a>MORE INFO</a></Link>
+            <Link href='#'><a>MORE INFO</a></Link>
           </div>
         </div>
 
@@ -53,7 +53,7 @@ function Tours() {
           <div className={`${style.tour_img} ${style.tour_bg_img}`}></div>
           <div className={style.tour_description}>
             <h3>JAPAN &apos; S BEST FOOD</h3>
-            <Link href='tours/food'><a>MORE INFO</a></Link>
+            <Link href='#'><a>MORE INFO</a></Link>
           </div>
         </div>
 
